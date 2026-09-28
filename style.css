@@ -1,4 +1,4 @@
- header{
+header{
     background-color: rgb(172, 103, 236);
     height: 20px;
     padding: 20px 0;
@@ -11,7 +11,7 @@ nav a{
     text-decoration: none;
     text-transform: uppercase;
     color: rgb(112, 9, 153, 0.829);
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;  
 }
 .caixa{
@@ -61,4 +61,34 @@ img{
   display: flex;           
   align-items: center;     
   gap: 16px;
+}
+footer{
+    text-align: center;
+    background-color:rgb(172, 103, 236);
+    padding: 40px 0;
+}
+footer img{
+    width: 50px;
+    margin-top: 20px;
+}
+footer p{
+    color: white;
+}
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+form{
+    margin: 40px 0;
+}
+form label{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+form input{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
 }
