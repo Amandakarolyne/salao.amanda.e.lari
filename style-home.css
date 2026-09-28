@@ -9,3 +9,15 @@ body{
 img{
             width: 800px;
 }
+footer{
+    text-align: center;
+    background-color:rgb(172, 103, 236);
+    padding: 40px 0;
+}
+footer img{
+    width: 50px;
+    margin-top: 20px;
+}
+footer p{
+    color: white;
+}
